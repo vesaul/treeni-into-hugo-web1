@@ -2,6 +2,10 @@
   publish = "public"
   command = "HUGO_BASEURL=$URL/ hugo"
   
+[context.production]
+command = "hugo -b $URL/"
+
+  
 [context.deploy-preview]
 command = "hugo -b $DEPLOY_PRIME_URL/"
 
