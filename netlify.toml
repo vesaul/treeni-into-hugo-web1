@@ -14,10 +14,10 @@
 # will inherit these settings.
 [context.deploy-preview]
   publish = "dist/"
-  baseurl = URL
+  baseurl = "URL"
   
 # Here is another way to define context specific environment variables
 [context.deploy-preview.environment]
   ACCESS_TOKEN = "not so secret"
-    baseurl = URL
+    baseurl = "URL"
 
